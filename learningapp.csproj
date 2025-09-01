@@ -9,5 +9,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
   </ItemGroup>
-
+  <Target Name="pipelinePreDeployCopyAllFilesToOneFolder">
+    <!-- Add your tasks here -->
+    <Message Text="Executing custom target: pipelinePreDeployCopyAllFilesToOneFolder" />
+  </Target>
 </Project>
