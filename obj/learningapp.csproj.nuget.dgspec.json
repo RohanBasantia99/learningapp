@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rohan\\Downloads\\application\\application\\learningapp\\learningapp.csproj": {}
+    "C:\\Users\\rohan\\Source\\learningapp\\learningapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rohan\\Downloads\\application\\application\\learningapp\\learningapp.csproj": {
+    "C:\\Users\\rohan\\Source\\learningapp\\learningapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rohan\\Downloads\\application\\application\\learningapp\\learningapp.csproj",
+        "projectUniqueName": "C:\\Users\\rohan\\Source\\learningapp\\learningapp.csproj",
         "projectName": "learningapp",
-        "projectPath": "C:\\Users\\rohan\\Downloads\\application\\application\\learningapp\\learningapp.csproj",
+        "projectPath": "C:\\Users\\rohan\\Source\\learningapp\\learningapp.csproj",
         "packagesPath": "C:\\Users\\rohan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rohan\\Downloads\\application\\application\\learningapp\\obj\\",
+        "outputPath": "C:\\Users\\rohan\\Source\\learningapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rohan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            },
+            "Microsoft.Azure.AppConfiguration.AspNetCore": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[5.2.0, )"
